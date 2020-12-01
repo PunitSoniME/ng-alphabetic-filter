@@ -1,0 +1,6 @@
+<span ng-repeat="character in vm.characterFilters">
+    <button type="button" ng-disabled="character.isDisabled" class="{{vm.bootstrapButtonColor}} {{vm.bootstrapButtonSize}}" ng-click="vm.filterFromCharacter(character)"
+        ng-class="{ 'btn-default': !character.isDisabled }">{{character.text}}</button>
+    &middot;
+</span>
+<button type="button" class="{{vm.clearButtonColor}} {{vm.bootstrapButtonSize}}" ng-click="vm.filterFromCharacter(null)">Clear</button>
