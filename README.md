@@ -41,7 +41,7 @@ Directive to use filter functionality using A-Z buttons
 
 
 # Check above example here
-### https://punitsonime.gitlab.io/ng-alphabetic-filter
+### https://punitsonime.github.io/ng-alphabetic-filter
 
 # Note
 - To use bootstrap-button-color, bootstrap-button-size, clear-button-color properties bootstrap is required.
