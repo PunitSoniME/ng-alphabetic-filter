@@ -1,6 +1,6 @@
 {
   "name": "ng-alphabetic-filter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A to Z Button Filter Directive",
   "main": "./ng-alphabetic-filter/ng-alphabetic-filter.js",
   "scripts": {
@@ -18,13 +18,13 @@
     "a to z filter"
   ],
   "author": "Punit Soni <punit.soni33@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/PunitSoniME/ng-alphabetic-filter/issues"
   },
   "homepage": "https://github.com/PunitSoniME/ng-alphabetic-filter",
   "dependencies": {
     "angular": "^1.7.5",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "3.3.7"
   }
 }
